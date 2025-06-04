@@ -1,4 +1,4 @@
-using Logger.Middleware;
+//using Logger.Middleware; //not needed
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Add the logging middleware before other middlewares
-app.UseMiddleware<RequestResponseLoggingMiddleware>();
+/* app.UseMiddleware<RequestResponseLoggingMiddleware>();  //not needed*/
 
 if (app.Environment.IsDevelopment())
 {
