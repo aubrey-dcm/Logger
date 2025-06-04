@@ -58,10 +58,4 @@ Logs/Response/20240604/04/13/202406041337.json
 If another request is made within the same minute, its payload will be appended to the same file.
 
 ## Notes
-
-- The logging middleware is included but does not perform logging; all logging is handled in the controller.
 - The project uses [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) for Swagger support.
-
-## License
-
-This project is licensed under the MIT License.
